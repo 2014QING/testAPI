@@ -15,40 +15,27 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="testAV.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testAV.py">
+      <file leaf-file-name="CompShoppingDatas.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shopping/CompShoppingDatas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+            <state relative-caret-position="179">
+              <caret line="121" column="29" lean-forward="false" selection-start-line="121" selection-start-column="29" selection-end-line="121" selection-end-column="29" />
               <folding>
-                <element signature="e#66#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testOpenAPI.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testOpenAPI.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="111" column="8" lean-forward="true" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
-              <folding>
-                <element signature="e#16#31#0" expanded="true" />
-                <element signature="e#606#5320#0" expanded="false" />
-                <element signature="e#15916#21694#0" expanded="false" />
-                <element signature="e#21731#23918#0" expanded="false" />
+                <element signature="e#24#33#0" expanded="true" />
+                <element signature="e#364#939#0" expanded="false" />
+                <element signature="e#1041#3215#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="rwExcel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rwExcel.py">
+        <entry file="file://$PROJECT_DIR$/rwexcle/rwExcel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="69" column="26" lean-forward="false" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+            <state relative-caret-position="121">
+              <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
               <folding>
-                <element signature="e#24#42#0" expanded="true" />
+                <element signature="e#24#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,10 +56,23 @@
       <find>operates</find>
       <find>isNull</find>
       <find>dateRestrictGo,Forbid</find>
+      <find>reality_rs</find>
+      <find>ElementTree</find>
+      <find>mmmmm</find>
+      <find>ddddd</find>
+      <find>priceInfo</find>
+      <find>flightSegmentList</find>
+      <find>priceList</find>
+      <find>wwwwww</find>
+      <find>price</find>
+      <find>result_C</find>
+      <find>result_B</find>
+      <find>dep</find>
     </findStrings>
     <replaceStrings>
       <replace>self.isStr(row[</replace>
       <replace>dateRestrictGoForbid</replace>
+      <replace>actual_rs</replace>
     </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -82,16 +82,28 @@
         <option value="$PROJECT_DIR$/testAV.py" />
         <option value="$PROJECT_DIR$/rwExcel.py" />
         <option value="$PROJECT_DIR$/testOpenAPI.py" />
+        <option value="$PROJECT_DIR$/testSabreAV.py" />
+        <option value="$USER_HOME$/Downloads/shopping_rs.xml" />
+        <option value="$PROJECT_DIR$/testXML.py" />
+        <option value="$PROJECT_DIR$/dataComp/flightSegment.py" />
+        <option value="$PROJECT_DIR$/dataComp/testXML.py" />
+        <option value="$PROJECT_DIR$/openAPI/testOpenAPI.py" />
+        <option value="$PROJECT_DIR$/avAPI/testAV.py" />
+        <option value="$PROJECT_DIR$/rwexcle/rwExcel.py" />
+        <option value="$PROJECT_DIR$/shopping/flightSegment.py" />
+        <option value="$PROJECT_DIR$/shopping/testXML.py" />
+        <option value="$PROJECT_DIR$/shopping/CompShoppingDatas.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="47" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="810" />
+    <option name="height" value="824" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -104,14 +116,86 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rwexcle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittest openAPITestCase.testChangeStatus">
-    <configuration default="false" name="Unittest openAPITestCase.testAddRT" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/avAPI" />
+      <recent name="$PROJECT_DIR$/openAPI" />
+      <recent name="$PROJECT_DIR$/rwexcle" />
+      <recent name="$PROJECT_DIR$/shopping" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.CompShoppingDatas">
+    <configuration default="false" name="Unittest openAPITestCase.testAddOW" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -121,9 +205,9 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="testAVAPI" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testOpenAPI.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/openAPI/testOpenAPI.py" />
       <option name="CLASS_NAME" value="openAPITestCase" />
-      <option name="METHOD_NAME" value="testAddRT" />
+      <option name="METHOD_NAME" value="testAddOW" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -133,7 +217,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in openAPITestCase (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittest openAPITestCase.testverifyResult" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -143,53 +227,9 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="testAVAPI" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testOpenAPI.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/openAPI/testOpenAPI.py" />
       <option name="CLASS_NAME" value="openAPITestCase" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in testOpenAPI" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="testAVAPI" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testOpenAPI.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest openAPITestCase.testDele" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="testAVAPI" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testOpenAPI.py" />
-      <option name="CLASS_NAME" value="openAPITestCase" />
-      <option name="METHOD_NAME" value="testDele" />
+      <option name="METHOD_NAME" value="testverifyResult" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -209,7 +249,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="testAVAPI" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testOpenAPI.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/openAPI/testOpenAPI.py" />
       <option name="CLASS_NAME" value="openAPITestCase" />
       <option name="METHOD_NAME" value="testChangeStatus" />
       <option name="FOLDER_NAME" value="" />
@@ -219,6 +259,40 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="testXML" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="testAVAPI" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shopping/testXML.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CompShoppingDatas" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/shopping" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="testAVAPI" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shopping/CompShoppingDatas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -356,19 +430,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest openAPITestCase.testAddRT" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in openAPITestCase (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in testOpenAPI" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest openAPITestCase.testDele" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest openAPITestCase.testChangeStatus" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest openAPITestCase.testAddOW" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest openAPITestCase.testverifyResult" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest openAPITestCase.testChangeStatus" />
+      <item index="3" class="java.lang.String" itemvalue="Python.testXML" />
+      <item index="4" class="java.lang.String" itemvalue="Python.CompShoppingDatas" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest openAPITestCase.testChangeStatus" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest openAPITestCase.testDele" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest openAPITestCase.testAddRT" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in testOpenAPI" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in openAPITestCase (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.CompShoppingDatas" />
+        <item index="1" class="java.lang.String" itemvalue="Python.testXML" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest openAPITestCase.testChangeStatus" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest openAPITestCase.testverifyResult" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest openAPITestCase.testAddOW" />
       </list>
     </recent_temporary>
   </component>
@@ -386,35 +460,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_openAPITestCase_testChangeStatus - 2017.03.03 at 18h 51m 24s.xml">
+    <history-entry file="Unittest_openAPITestCase_testChangeStatus - 2017.03.07 at 17h 38m 30s.xml">
       <configuration name="Unittest openAPITestCase.testChangeStatus" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_openAPITestCase_testChangeStatus - 2017.03.03 at 18h 52m 14s.xml">
+    <history-entry file="Unittest_openAPITestCase_testChangeStatus - 2017.03.07 at 17h 40m 12s.xml">
       <configuration name="Unittest openAPITestCase.testChangeStatus" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_openAPITestCase_testChangeStatus - 2017.03.03 at 18h 53m 54s.xml">
+    <history-entry file="Unittest_openAPITestCase_testChangeStatus - 2017.03.07 at 17h 43m 02s.xml">
       <configuration name="Unittest openAPITestCase.testChangeStatus" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_openAPITestCase_testChangeStatus - 2017.03.03 at 18h 56m 36s.xml">
-      <configuration name="Unittest openAPITestCase.testChangeStatus" configurationId="tests" />
+    <history-entry file="Unittest_openAPITestCase_testverifyResult - 2017.03.07 at 17h 02m 01s.xml">
+      <configuration name="Unittest openAPITestCase.testverifyResult" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_openAPITestCase_testChangeStatus - 2017.03.03 at 18h 57m 16s.xml">
-      <configuration name="Unittest openAPITestCase.testChangeStatus" configurationId="tests" />
+    <history-entry file="Unittest_openAPITestCase_testverifyResult - 2017.03.07 at 17h 02m 32s.xml">
+      <configuration name="Unittest openAPITestCase.testverifyResult" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_openAPITestCase_testChangeStatus - 2017.03.03 at 18h 58m 22s.xml">
-      <configuration name="Unittest openAPITestCase.testChangeStatus" configurationId="tests" />
+    <history-entry file="Unittest_openAPITestCase_testverifyResult - 2017.03.07 at 17h 05m 00s.xml">
+      <configuration name="Unittest openAPITestCase.testverifyResult" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_openAPITestCase_testChangeStatus - 2017.03.03 at 19h 11m 27s.xml">
-      <configuration name="Unittest openAPITestCase.testChangeStatus" configurationId="tests" />
+    <history-entry file="Unittest_openAPITestCase_testverifyResult - 2017.03.07 at 17h 05m 49s.xml">
+      <configuration name="Unittest openAPITestCase.testverifyResult" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_openAPITestCase_testChangeStatus - 2017.03.03 at 19h 20m 17s.xml">
-      <configuration name="Unittest openAPITestCase.testChangeStatus" configurationId="tests" />
+    <history-entry file="Unittest_openAPITestCase_testverifyResult - 2017.03.07 at 17h 08m 32s.xml">
+      <configuration name="Unittest openAPITestCase.testverifyResult" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_openAPITestCase_testChangeStatus - 2017.03.03 at 19h 24m 27s.xml">
-      <configuration name="Unittest openAPITestCase.testChangeStatus" configurationId="tests" />
+    <history-entry file="Unittest_openAPITestCase_testverifyResult - 2017.03.07 at 17h 10m 43s.xml">
+      <configuration name="Unittest openAPITestCase.testverifyResult" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_openAPITestCase_testChangeStatus - 2017.03.06 at 10h 32m 11s.xml">
-      <configuration name="Unittest openAPITestCase.testChangeStatus" configurationId="tests" />
+    <history-entry file="Unittest_openAPITestCase_testverifyResult - 2017.03.07 at 17h 11m 57s.xml">
+      <configuration name="Unittest openAPITestCase.testverifyResult" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="2">
@@ -427,19 +501,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="810" extended-state="0" />
+    <frame x="47" y="23" width="1440" height="824" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22662337" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22339676" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.365722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28961748" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39972144" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -449,7 +523,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -457,9 +531,9 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29810727" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29526463" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27964744" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22410148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -473,276 +547,204 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="47" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testAV.py">
+    <entry file="file://$PROJECT_DIR$/openAPI/testOpenAPI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8041">
+          <caret line="473" column="23" lean-forward="true" selection-start-line="473" selection-start-column="23" selection-end-line="473" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rwexcle/rwExcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python3/3.6.0/Frameworks/Python.framework/Versions/3.6/lib/python3.6/genericpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avAPI/testAV.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-          <folding>
-            <element signature="e#66#81#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testOpenAPI.py">
+    <entry file="file://$PROJECT_DIR$/openAPI/testOpenAPI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#31#0" expanded="true" />
-            <element signature="e#606#5320#0" expanded="false" />
-            <element signature="e#15916#21694#0" expanded="false" />
-            <element signature="e#21731#23918#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rwExcel.py">
+    <entry file="file://$PROJECT_DIR$/rwexcle/rwExcel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
           <caret line="69" column="26" lean-forward="true" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
-          <folding>
-            <element signature="e#24#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testAV.py">
+    <entry file="file://$PROJECT_DIR$/avAPI/testAV.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding>
-            <element signature="e#66#81#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testOpenAPI.py">
+    <entry file="file://$PROJECT_DIR$/openAPI/testOpenAPI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#31#0" expanded="true" />
-            <element signature="e#606#5320#0" expanded="false" />
-            <element signature="e#15916#21694#0" expanded="false" />
-            <element signature="e#21731#23918#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rwExcel.py">
+    <entry file="file://$PROJECT_DIR$/rwexcle/rwExcel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
           <caret line="73" column="53" lean-forward="false" selection-start-line="73" selection-start-column="53" selection-end-line="73" selection-end-column="53" />
-          <folding>
-            <element signature="e#24#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testAV.py">
+    <entry file="file://$PROJECT_DIR$/avAPI/testAV.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#66#81#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testOpenAPI.py">
+    <entry file="file://$PROJECT_DIR$/openAPI/testOpenAPI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2703">
           <caret line="228" column="68" lean-forward="true" selection-start-line="228" selection-start-column="68" selection-end-line="228" selection-end-column="68" />
-          <folding>
-            <element signature="e#16#31#0" expanded="true" />
-            <element signature="e#606#5320#0" expanded="false" />
-            <element signature="e#15916#21694#0" expanded="false" />
-            <element signature="e#21731#23918#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rwExcel.py">
+    <entry file="file://$PROJECT_DIR$/rwexcle/rwExcel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
           <caret line="73" column="53" lean-forward="false" selection-start-line="73" selection-start-column="53" selection-end-line="73" selection-end-column="53" />
-          <folding>
-            <element signature="e#24#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testAV.py">
+    <entry file="file://$PROJECT_DIR$/avAPI/testAV.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#66#81#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testOpenAPI.py">
+    <entry file="file://$PROJECT_DIR$/openAPI/testOpenAPI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1241">
           <caret line="76" column="45" lean-forward="true" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
-          <folding>
-            <element signature="e#16#31#0" expanded="true" />
-            <element signature="e#606#5320#0" expanded="false" />
-            <element signature="e#15916#21694#0" expanded="false" />
-            <element signature="e#21731#23918#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rwExcel.py">
+    <entry file="file://$PROJECT_DIR$/rwexcle/rwExcel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
           <caret line="73" column="53" lean-forward="false" selection-start-line="73" selection-start-column="53" selection-end-line="73" selection-end-column="53" />
-          <folding>
-            <element signature="e#24#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testAV.py">
+    <entry file="file://$PROJECT_DIR$/avAPI/testAV.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-          <folding>
-            <element signature="e#66#81#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testOpenAPI.py">
+    <entry file="file://$PROJECT_DIR$/openAPI/testOpenAPI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#31#0" expanded="true" />
-            <element signature="e#606#5320#0" expanded="false" />
-            <element signature="e#15916#21694#0" expanded="false" />
-            <element signature="e#21731#23918#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rwExcel.py">
+    <entry file="file://$PROJECT_DIR$/rwexcle/rwExcel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testAV.py">
+    <entry file="file://$PROJECT_DIR$/avAPI/testAV.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
           <caret line="83" column="7" lean-forward="true" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="72" />
-          <folding>
-            <element signature="e#66#81#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testOpenAPI.py">
+    <entry file="file://$PROJECT_DIR$/openAPI/testOpenAPI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#31#0" expanded="true" />
-            <element signature="e#606#5320#0" expanded="false" />
-            <element signature="e#15916#21694#0" expanded="false" />
-            <element signature="e#21731#23918#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rwExcel.py">
+    <entry file="file://$PROJECT_DIR$/rwexcle/rwExcel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
           <caret line="64" column="50" lean-forward="false" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
-          <folding>
-            <element signature="e#24#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testAV.py">
+    <entry file="file://$PROJECT_DIR$/avAPI/testAV.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-          <folding>
-            <element signature="e#66#81#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rwExcel.py">
+    <entry file="file://$PROJECT_DIR$/rwexcle/rwExcel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
           <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testAV.py">
+    <entry file="file://$PROJECT_DIR$/avAPI/testAV.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#66#81#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rwExcel.py">
+    <entry file="file://$PROJECT_DIR$/rwexcle/rwExcel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
           <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testAV.py">
+    <entry file="file://$PROJECT_DIR$/avAPI/testAV.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#66#81#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rwExcel.py">
+    <entry file="file://$PROJECT_DIR$/rwexcle/rwExcel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
           <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testAV.py">
+    <entry file="file://$PROJECT_DIR$/avAPI/testAV.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="54" column="38" lean-forward="false" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
-          <folding>
-            <element signature="e#66#81#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -753,33 +755,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rwExcel.py">
+    <entry file="file://$PROJECT_DIR$/rwexcle/rwExcel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1156">
           <caret line="74" column="74" lean-forward="false" selection-start-line="74" selection-start-column="74" selection-end-line="74" selection-end-column="74" />
-          <folding>
-            <element signature="e#24#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testAV.py">
+    <entry file="file://$PROJECT_DIR$/avAPI/testAV.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#66#81#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rwExcel.py">
+    <entry file="file://$PROJECT_DIR$/rwexcle/rwExcel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="47" column="48" lean-forward="false" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
-          <folding>
-            <element signature="e#24#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -808,6 +801,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="167" column="4" lean-forward="false" selection-start-line="167" selection-start-column="4" selection-end-line="167" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -818,35 +812,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testAV.py">
+    <entry file="file:///usr/local/lib/python3.6/site-packages/openpyxl/reader/excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        <state relative-caret-position="129">
+          <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python3/3.6.0/Frameworks/Python.framework/Versions/3.6/lib/python3.6/genericpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSabreAV.py" />
+    <entry file="file:///usr/local/Cellar/python3/3.6.0/Frameworks/Python.framework/Versions/3.6/lib/python3.6/xml/etree/ElementTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="681" column="38" lean-forward="false" selection-start-line="681" selection-start-column="38" selection-end-line="681" selection-end-column="38" />
           <folding>
-            <element signature="e#66#81#0" expanded="true" />
+            <element signature="e#3449#3459#0" expanded="false" />
+            <element signature="e#3597#3848#0" expanded="false" />
+            <element signature="e#3951#4042#0" expanded="false" />
+            <element signature="e#4064#14277#0" expanded="false" />
+            <element signature="e#14333#14891#0" expanded="false" />
+            <element signature="e#14922#15196#0" expanded="false" />
+            <element signature="e#15753#17293#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rwExcel.py">
+    <entry file="file://$USER_HOME$/Downloads/shopping_rs.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="69" column="26" lean-forward="false" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+        <state relative-caret-position="17">
+          <caret line="4387" column="0" lean-forward="false" selection-start-line="4387" selection-start-column="0" selection-end-line="4387" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avAPI/testAV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/site-packages/openpyxl/worksheet/worksheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="299" column="0" lean-forward="false" selection-start-line="299" selection-start-column="0" selection-end-line="299" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/site-packages/openpyxl/cell/cell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="291" column="0" lean-forward="false" selection-start-line="291" selection-start-column="0" selection-end-line="291" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openAPI/testOpenAPI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping/flightSegment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping/testXML.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python3/3.6.0/Frameworks/Python.framework/Versions/3.6/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="331" column="0" lean-forward="false" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rwexcle/rwExcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
           <folding>
-            <element signature="e#24#42#0" expanded="true" />
+            <element signature="e#24#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testOpenAPI.py">
+    <entry file="file://$PROJECT_DIR$/shopping/CompShoppingDatas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="111" column="8" lean-forward="true" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
+        <state relative-caret-position="179">
+          <caret line="121" column="29" lean-forward="false" selection-start-line="121" selection-start-column="29" selection-end-line="121" selection-end-column="29" />
           <folding>
-            <element signature="e#16#31#0" expanded="true" />
-            <element signature="e#606#5320#0" expanded="false" />
-            <element signature="e#15916#21694#0" expanded="false" />
-            <element signature="e#21731#23918#0" expanded="false" />
+            <element signature="e#24#33#0" expanded="true" />
+            <element signature="e#364#939#0" expanded="false" />
+            <element signature="e#1041#3215#0" expanded="false" />
           </folding>
         </state>
       </provider>

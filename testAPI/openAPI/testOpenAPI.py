@@ -1,28 +1,30 @@
 # coding：utf-8
 
-import requests
-import unittest
-import json
-from rwExcel import RwEXcel
-import time
 import hashlib
+import json
+import time
+import unittest
+import requests
+from rwexcle.rwExcel import RwExcel
 
 
 class openAPITestCase(unittest.TestCase):
     def setUp(self):
-        self.rwexcel = RwEXcel()
+        self.rwexcel = RwExcel()
         self.url0 = "http://10.100.159.135:20001/ifow/privatefare/getOpenApi.do"
         #self.url0="http://10.19.6.84:8080/ifow/privatefare/getOpenApi.do"
         self.accessKeyId = 'zXOgWOpOrFu55AGV'
         self.userAccount = 'jpfx'
         self.accessKeySecret = 'zqOnCBshkONy0POjFythaOTac0Gbr8'
-        self.timestamp = int(time.time()) * 1000 + 6000000
+        self.timestamp = int(time.time()) * 1000 + 60000000
 
     def testAddOW(self):
         # 新增单程54个字段
         # 修改单程，多增字段：私有运价ID
         filersname = 'testaddOW'
         file = "/Users/zhaoqing/softwares/codes/testAPI/scripts/params/testaddOW.xlsx"
+        #file = "/Users/zhaoqing/softwares/codes/testAPI/scripts/params/testaddOW2017-03-06-16-08-58.xlsx"
+
         datas = self.rwexcel.read_excel_table_byindex(file)
         listrs = []
         operateType = 1
@@ -89,8 +91,9 @@ class openAPITestCase(unittest.TestCase):
             print('$$$$$$$$$', url)
             rsp = requests.post(url=url)
             print('',rsp.json())
-            listrs.append(json.dumps(rsp.json()))
-        self.rwexcel.write_excel_table_byindex(2, 56, listrs, file, filersname)
+            listrs.append(str(rsp.json()))
+        #self.rwexcel.write_excel_table_byindex('excepted_rs', listrs, file, filersname)
+        self.rwexcel.write_excel_table_byindex('actual_rs', listrs, file, filersname)
 
     def testEditOW(self):
         # 修改单程，多增字段：私有运价ID
@@ -252,11 +255,10 @@ class openAPITestCase(unittest.TestCase):
                 operateType) + '&content=' + str(data["content"])
             #url中&和?有特殊含义，会被截取
             print('$$$$$$$$$',url)
-
             rsp = requests.post(url=url)
             print(rsp.json())
             listrs.append(str(rsp.json()))
-        self.rwexcel.write_excel_table_byindex(2,65, listrs, file, filersname)
+        self.rwexcel.write_excel_table_byindex('actual_rs', listrs, file, filersname)
 
     def testEditRT(self):
         #修改比新增多一个ID
@@ -393,8 +395,8 @@ class openAPITestCase(unittest.TestCase):
 
     def testDele(self):
         listrs=[]
-        #id=246588124887515149
-        id=246588124887515151,246588124887515152
+        id=289317865356525672
+        #id=246588124887515151,246588124887515152
         operateType=2
         data = {
             "content":{
@@ -441,13 +443,28 @@ class openAPITestCase(unittest.TestCase):
             print(url)
             print(rsp.json())
             listrs.append(str(rsp.json()))
-        print("Change status result:",listrs)
-        self.rwexcel.write_excel_table_byindex(2,6, listrs, file, filersname)
+        #print("Change status result:",listrs)
+        self.rwexcel.write_excel_table_byindex('actual_rs', listrs, file, filersname)
 
 
-    # 查询
-    # 批量修改状态
-    # 删除运价
+
+    def testverifyResult(self):
+        file="/Users/zhaoqing/softwares/codes/testAPI/scripts/params/testaddOW2017-03-07-16-26-02.xlsx"
+        filersname='aaaaa'
+        listrs=[]
+        datas=self.rwexcel.read_excel_table_byindex(file)
+        for row in datas:
+            if eval(row['excepted_rs'])['code']==eval(row['actual_rs'])['code'] and eval(row['excepted_rs'])['code']==200 and eval(
+                    row['excepted_rs'])['message']==eval(row['actual_rs'])['message'] :
+                rs='pass'
+            elif eval(row['excepted_rs'])['code']!= 200 and row['excepted_rs']==row['actual_rs'] :
+                rs='pass'
+            else:
+                rs='falil'
+            listrs.append(rs)
+        #print(listrs)
+        self.rwexcel.write_excel_table_byindex('rs',listrs,file,filersname)
+
     def tearDwon(self):
         pass
     # #非空转为整型

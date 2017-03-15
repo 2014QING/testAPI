@@ -2,11 +2,12 @@
 
 # A simple example using the HTTP plugin
 
-import requests
-import unittest
-from rwExcel import RwEXcel
 import json
+import unittest
 
+import requests
+
+from rwexcle.rwExcel import RwExcel
 
 url = "http://10.19.4.20:6989/ivis/IntlAvSearch.json"
 
@@ -14,7 +15,7 @@ url = "http://10.19.4.20:6989/ivis/IntlAvSearch.json"
 class AVAPITestCase(unittest.TestCase):
     def setUp(self):
         self.file = '/Users/zhaoqing/softwares/codes/testAPI/scripts/params/testAVDatas.xlsx'
-        self.rwexcel = RwEXcel()
+        self.rwexcel = RwExcel()
 
     def test_av(self):
         file=self.file
